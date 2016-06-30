@@ -21,14 +21,14 @@ Abbreviated version:
 
 Once the Razor package is installed, switch to the Catkin Workspace, and source devel/setup.bash
 Then:
-<blockquote>
-$ roscd razor_imu_9dof
-$ cp -r src/Razor_AHRS ~/sketchbook    // Jetson TK1 uses Arduino 1.0 software
-Set hardware option
-Go to "Tools" → "Board" and select "Arduino Pro or Pro Mini (3.3v, 8mhz) w/ATmega328". Note: in Aduino 1.5+, the board menu doesn't allow selecting the voltage/frequency; go to the Processor menu after selecting "Arduino Pro or Pro Mini" and select "ATMega 328 (3.3V, 8Mhz)"
-Go to "Tools" → "Serial Port" and select the port used with the Razor.
-Go to "File" and hit "Upload to I/O Board". After a short while at the bottom of the *Arduino* code window it should say "Done uploading".
-</blockquote>
+
+$ roscd razor_imu_9dof  
+$ cp -r src/Razor_AHRS ~/sketchbook    // Jetson TK1 uses Arduino 1.0 software  
+Set hardware option  
+Go to "Tools" → "Board" and select "Arduino Pro or Pro Mini (3.3v, 8mhz) w/ATmega328". Note: in Aduino 1.5+, the board menu doesn't allow selecting the voltage/frequency; go to the Processor menu after selecting "Arduino Pro or Pro Mini" and select "ATMega 328 (3.3V, 8Mhz)"  
+Go to "Tools" → "Serial Port" and select the port used with the Razor.  
+Go to "File" and hit "Upload to I/O Board". After a short while at the bottom of the *Arduino* code window it should say "Done uploading".  
+
 
 
 
